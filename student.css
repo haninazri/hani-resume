@@ -1,0 +1,92 @@
+body
+{
+	background-image:url(nature.jpeg);
+}
+
+text-container
+{
+	position: absolute;
+	left: 15.8%;
+	top:58%;
+	height: -50;
+	transform:translate(-13%,-42%);
+	width: 950px;
+	box-shadow: 20px 10px 30px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: rgb(241, 235, 226);
+ }
+
+ nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+	background-color: rgb(10, 10, 10);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+	box-shadow:20px 10px 30px 20px rgba(0,0,0,0.2);
+}
+
+nav ul li a button
+{
+	color: rgb(3, 3, 3);
+	width:100px;
+	height: 70px;
+	color:#000000;
+	background-color: rgba(228, 216, 59, 0.856);
+	outline:none;
+	border: none;
+	font-style: italic;
+	box-shadow: 20px 10px 30px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    box-sizing: content-box;
+	position: relative;
+	font-size: large;
+	font-family: fantasy;
+    border-spacing: initial;
+}
+
+.li
+{
+	background-color: rgb(26, 25, 19);
+	color:  rgb(236, 222, 17);
+}
+
+nav ul
+{
+	display: flex;
+}
+
+.toggle
+{
+	display: none;
+}
+
+nav ul li a
+{
+	margin: 30px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;	
+	color: #505050;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.copyright
+{
+	color:#161515;
+	font-size: 12px;
+	position: absolute;
+	left:50%;
+	bottom:-10px;
+	transform: translateX(-50%);
+}
+
+.model
+{
+	height:530px;
+	position:absolute;
+	bottom:40px;
+	left:90%;
+	transform: translateX(-75%);
+}

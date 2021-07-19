@@ -1,0 +1,118 @@
+body
+{
+	background-image:url(nature.jpeg);
+}
+* {box-sizing:border-box}
+
+p
+{
+    font-family: fantasy;
+    font-style: italic;
+    text-align: right;
+    color: rgb(31, 31, 32);    
+    text-transform: capitalize;
+}
+
+.container 
+  {
+    width: 100%;
+    background-color: rgb(235, 231, 231); 
+  }
+  
+  .WORDS
+  {
+    text-align: center; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    color: rgb(22, 20, 20); 
+    font-family: fantasy;
+  }
+  
+  .POWERPOINT
+  {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(22, 20, 20);
+    font-family: fantasy;
+  }
+
+  .EXCEL
+  {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(22, 20, 20);
+    font-family: fantasy;
+  }
+
+  .ADOBE
+  {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(22, 20, 20);
+    font-family: fantasy;
+  }
+
+
+  .WORDS {width: 90%; background-color: #7dc42c;} 
+  .POWERPOINT {width: 80%; background-color: #2196F3;} 
+  .EXCEL {width: 80%; background-color: #f44336;} 
+  .ADOBE {width: 60%; background-color: #808080;} 
+
+  nav
+  {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      background-color: rgb(10, 10, 10);
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+      padding: 20px
+  }
+  
+  nav ul li a button
+  {
+      color: rgb(3, 3, 3);
+      width:100px;
+      height: 50px;
+      color:#000000;
+      background-color: rgba(228, 216, 59, 0.856);
+      font-family: fantasy;
+      font-style: italic;
+      text-align: center;
+      box-sizing: content-box;
+      position: relative;
+      font-size:large;
+      border-spacing: initial;
+      padding: 10px;
+  }
+  
+  .li
+  {
+      background-color: rgb(26, 25, 19);
+      color:  rgb(236, 222, 17);
+  }
+  
+  nav ul
+  {
+      display:inline-flex;
+  }
+  
+  nav ul li a
+  {
+      margin: 50px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;	
+      color: #505050;
+  }
+
+  .copyright
+{
+	color:#161515;
+	font-size: 12px;
+	position: absolute;
+	left:50%;
+	bottom:-10px;
+	transform: translateX(-50%);
+}
